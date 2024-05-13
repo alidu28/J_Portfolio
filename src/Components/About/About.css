@@ -110,6 +110,44 @@
     transition: 0.5s;
 }
 
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .about{
+        margin: 90px 100px;
+    }
+
+    .about-title h1{
+        font-size: 66px;
+    }
+
+    .about-title img{
+        width: 170px;
+        margin-right: -5px;
+    }
+
+    .about-para{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .about-skill p{
+        font-size: 20px;
+    }
+
+    .about-skill hr{
+        height: 6px;
+    }
+
+    .about-achievement h1{
+        font-size: 45px;
+    }
+
+    .about-achievement p{
+        font-size: 20px;
+    }
+}
+
+
 @media (max-width: 768px) {
 
     .about{

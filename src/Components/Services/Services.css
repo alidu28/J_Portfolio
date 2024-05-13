@@ -78,6 +78,39 @@
     transition: 0.4s;
 }
 
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .services{
+        margin: 80px 100px;
+    }
+
+    .services-title h1{
+        font-size: 66px;
+    }
+
+    .services-title img{
+        width: 170px;
+        margin-right: -5px;
+    }
+
+    .services-format h2{
+        font-size: 32px;
+    }
+
+    .services-format p{
+        font-size: 20px;
+    }
+
+    .services-readmore p{
+        font-size: 18px;
+    }
+
+    .services-readmore img{
+        width: 22px;
+    }
+}
+
+
 @media (max-width: 768px) {
     .services{
         align-items: start;
@@ -115,7 +148,7 @@
     }
 
     .services-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 30px;
     }
 }
