@@ -109,9 +109,29 @@
         gap: 50px;
     }
 
+    .footer-top-left p{
+        font-size: 18px;
+    }
+
+    .footer-top-right{
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .footer-email-input{
+        padding: 15px 30px;
+    }
+
+    .footer-subscribe{
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
     .footer-bottom{
+        font-size: 16px;
         display: flex;
         flex-direction: column;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
+        gap: 20px;
     }
 }
